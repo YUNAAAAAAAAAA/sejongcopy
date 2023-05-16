@@ -443,7 +443,6 @@ footer > div:first-child > ul{
     display: flex;
     gap: 16px;
     margin: 0 auto;
-    justify-content: center;
     padding: 20px 0;
     overflow-x: auto;
     white-space: nowrap;
