@@ -551,6 +551,10 @@ footer > div:last-child{
         text-align: left;
         padding-left: 55px;
     }
+
+    footer > div:first-child > ul{
+        justify-content: center;
+    }
 }
 
 /*--------------------------------768px-----------------------------------*/
