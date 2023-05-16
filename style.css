@@ -593,6 +593,13 @@ footer > div:last-child{
     main > div:nth-child(4) > div:nth-child(2){
         height: 325px;
     }
+    
+    header{
+        height: 100px;
+    }
+    header > div:nth-child(2){
+        width: 200px;
+    }
 }
 
 /*------------------------------1024px---------------------------------*/
