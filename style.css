@@ -516,7 +516,7 @@ footer > div:last-child{
     main > div:nth-child(3) > div{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 400px;
+        grid-template-rows: 255px;
         max-width: 1440px;
     }
     main > div:nth-child(3) > div > div:nth-child(3){
@@ -583,6 +583,7 @@ footer > div:last-child{
         main > div:nth-child(3) > div{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 345px;
 
         }
     
@@ -610,6 +611,7 @@ footer > div:last-child{
     main > div:nth-child(3) > div{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 390px;
 
     }
 main > div:nth-child(3) > div > div:nth-child(5){
