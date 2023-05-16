@@ -546,6 +546,11 @@ footer > div:last-child{
     main >div:nth-child(6) > div:last-child > div:last-child{
         display: block;
     }
+	
+    main > div:first-child > div:last-child{
+        text-align: left;
+        padding-left: 55px;
+    }
 }
 
 /*--------------------------------768px-----------------------------------*/
