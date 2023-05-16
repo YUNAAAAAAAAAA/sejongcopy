@@ -1,0 +1,607 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------------------reset code------------------*/
+
+header{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+header > div:first-child{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/common/btn-menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px; height: 19px;
+    margin-right: 30px;
+}
+header > div:nth-child(2){
+    background-image: url(https://www.sejongpac.or.kr/static/commons/img/common/logo_new.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+    width: 169px; height: 45px;
+}
+header > div:last-child{
+    display: flex;
+    gap: 16px;
+}
+header > div:last-child > div:first-child{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/common/ico-ticket_b.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 29px; height: 19px;
+}
+header > div:last-child > div:last-child{
+    background-image: url(https://www.sejongpac.or.kr/static/commons/img/common/btn-sch_b.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 21px; height: 21px;
+}
+/*--------  header  --------*/
+
+main > div:first-child{
+   background-color: rgb(200, 196, 196);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+main > div:first-child > p:first-child{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+}
+main > div:first-child > p:nth-child(2){
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+}
+main > div:first-child > div:nth-child(3){
+    background-image: url(https://www.sejongpac.or.kr/cmmn/file/imageSrc.do?fileStreCours=77a2d6b5656e557c38f09beb596fb3c6&streFileNm=17f9ea6038806496421dee8776c572a9bf4b4a2a74d5539362efbe1af903bb84);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    max-width: 320px;
+    height: 491px;
+    margin: 0 auto;
+    padding: 15px 0 15px 0
+}
+main > div:first-child > div:last-child{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+main > div:first-child > div:last-child > button{
+    height: 48px;
+    border: 2px solid black;
+    font-size: 16.5px;
+    font-weight: 400;
+    padding: 0 40px;
+}
+/*--------  main div1  --------*/
+
+main > div:nth-child(2){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 85px;
+    margin: 0 auto;
+    padding: 35px 13px 20px;
+}
+.menu > div:first-child{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 36px;  height: 43px;
+    margin: 0 auto;
+}
+.menu > p{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: 700;
+}
+#today{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/m1_3.gif);
+}
+#news{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/m1_4.gif);
+}
+#seat{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/m1_5.gif);
+}
+#ticket{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/m1_7.gif);
+}
+#map{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/m1_6.gif);
+}
+#facilities{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/m1_10.gif);
+}
+#event{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/m1_11.gif);
+}
+#faq{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/m1_12.gif);
+}
+main > div:nth-child(2) > div:nth-child(4){
+    display:none;
+}
+main > div:nth-child(2) > div:nth-child(5){
+    display:none;
+}
+main > div:nth-child(2) > div:nth-child(6){
+    display:none;
+}
+main > div:nth-child(2) > div:nth-child(7){
+    display:none;
+}
+main > div:nth-child(2) > div:nth-child(8){
+    display:none;
+}
+main > div:nth-child(2) > div:nth-child(9){
+    display:none;
+}
+
+/*--------  main div2 --------*/
+
+main > div:nth-child(3){
+    padding: 30px 13px;
+}
+main > div:nth-child(3) > p:nth-child(2){
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+main >  div:nth-child(3) > p:nth-child(3){
+    font-size: 24px;
+    font-weight: 500;
+    margin: 7px 0 24px;
+}
+main > div:nth-child(3) > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 239px;
+    margin: 0 auto;
+    gap: 8px;
+}
+main >div:nth-child(3) > div > div:first-child{
+    background-image: url(https://www.sejongpac.or.kr/cmmn/file/imageSrc.do?fileStreCours=651010d705d461aef3312a05595e7383&streFileNm=44aa333507cc6ba105416285ed2c161cad9dfc36288f971a5bacb5e178aa54a2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main >div:nth-child(3) > div > div:nth-child(2){
+    background-image: url(https://www.sejongpac.or.kr/cmmn/file/imageSrc.do?fileStreCours=50d44e8d24f98725f214b987ed16e08f&streFileNm=af1203cc88fab4288791409b7b7b56d92b2061ad95b408c44731011a6c60517c);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main >div:nth-child(3) > div > div:nth-child(3){
+    background-image: url(https://www.sejongpac.or.kr/cmmn/file/imageSrc.do?fileStreCours=50d44e8d24f98725f214b987ed16e08f&streFileNm=1d966b2099a2aa99e773b2eb2b1eda4d2b2061ad95b408c44731011a6c60517c);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main >div:nth-child(3) > div > div:nth-child(4){
+    background-image: url(https://www.sejongpac.or.kr/cmmn/file/imageSrc.do?fileStreCours=77a2d6b5656e557c38f09beb596fb3c6&streFileNm=50cbc856221ef4611deb56c8238a57426a7ff77472074eb1dad6fba65becd736);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main >div:nth-child(3) > div > div:last-child{
+    background-image: url(https://www.sejongpac.or.kr/cmmn/file/imageSrc.do?fileStreCours=651010d705d461aef3312a05595e7383&streFileNm=dc1cc985ac1eba102589efa41726093752e2f1440befb29c34155b70a7ef77fe);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main >div:nth-child(3) > div > div:nth-child(3){
+    display: none;
+}
+main >div:nth-child(3) > div > div:nth-child(4){
+    display: none;
+}
+main >div:nth-child(3) > div > div:nth-child(5){
+    display: none;
+}
+
+/*--------  main div3  --------*/
+
+main > div:nth-child(4) > div:first-child{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/2023_season/03_m.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px; width: 100%;
+    position: relative;
+}
+main > div:nth-child(4) > div:first-child > span{
+    padding-left: 15px;
+}
+main > div:nth-child(4) > div:first-child > p:nth-child(2){
+    font-size: 13px;
+    padding: 0 0 10px 15px;
+    margin: 10px 0 0;
+}
+main > div:nth-child(4) > div:first-child > p:last-child{
+    font-size: 24px;
+    margin: 8px 0 0;
+    padding-left: 15px;
+}
+
+main > div:nth-child(4) > div:nth-child(2){
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/webzine_new.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px; width: 100%;
+    position: relative;
+}
+main > div:nth-child(4) > div:nth-child(2) > span{
+    padding-left: 15px;
+    color: white;
+}
+main > div:nth-child(4) > div:nth-child(2) > p:nth-child(2){
+    font-size: 13px;
+    padding: 0 0 10px 15px;
+    margin: 10px 0 0;
+    color: white;
+}
+main > div:nth-child(4) > div:nth-child(2) > p:last-child{
+    font-size: 24px;
+    margin: 8px 0 0;
+    padding-left: 15px;
+    color: white;
+}
+
+main > div:nth-child(4) > div:nth-child(3){
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/c3_new.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px; width: 100%;
+    position: relative;
+}
+main > div:nth-child(4) > div:nth-child(3) > span{
+    padding-left: 15px;
+    color: white;
+}
+main > div:nth-child(4) > div:nth-child(3) > p:nth-child(2){
+    font-size: 13px;
+    padding: 0 0 10px 15px;
+    margin: 10px 0 0;
+    color: white;
+}
+main > div:nth-child(4) > div:nth-child(3) > p:last-child{
+    font-size: 24px;
+    margin: 8px 0 0;
+    padding-left: 15px;
+    color: white;
+}
+
+main > div:nth-child(4) > div:last-child{
+    background-image: url(https://www.sejongpac.or.kr/static/portal/img/main/artsgroup/2022/bg03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px; width: 100%;
+    position: relative;
+}
+main > div:nth-child(4) > div:last-child > span{
+    padding-left: 15px;
+    color: white;
+}
+main > div:nth-child(4) > div:last-child > p:nth-child(2){
+    font-size: 13px;
+    padding: 0 0 10px 15px;
+    margin: 10px 0 0;
+    color: white;
+}
+main > div:nth-child(4) > div:last-child > p:last-child{
+    font-size: 24px;
+    margin: 8px 0 0;
+    padding-left: 15px;
+    color: white;
+}
+/*--------  main div4 --------*/
+
+main > div:nth-child(5){
+    padding: 39px 13px;
+}
+
+main > div:nth-child(5) > div:first-child > p:nth-child(2){
+    font-size: 13px;
+    padding: 0 0 10px;
+    margin: 10px 0 0;
+}
+main > div:nth-child(5) > div:first-child > p:last-child{
+    font-size: 24px;
+    margin: 8px 0 24px;
+    
+}
+
+main > div:nth-child(5) > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    line-height: 1.5;
+    justify-content: center;
+}
+main > div:nth-child(5) > div:nth-child(2) > div{
+    border: 4px solid black;
+    padding: 6px 6px 50px 6px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+/*--------  main div5 --------*/
+
+main > div:nth-child(6){
+    padding: 30px 13px;
+}
+main > div:nth-child(6) > div:first-child > p:nth-child(2){
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+main >  div:nth-child(6) > div:first-child > p:nth-child(3){
+    font-size: 24px;
+    font-weight: 500;
+    margin: 7px 0 24px;
+}
+main > div:nth-child(6) > div:last-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 188px;
+    gap: 16px;
+    padding: 0 8px;
+}
+main >div:nth-child(6) > div:last-child > div:first-child{
+    background-image: url(https://www.sejongpac.or.kr/cmmn/file/imageSrc.do?fileStreCours=4b3e3d9d2ca3ad1395b5126caf40404bbb6d9ec4bb1f6894357ee3bde7a73807&streFileNm=95a51859d07d5eb6b745d26c016fe11052e2f1440befb29c34155b70a7ef77fe);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main >div:nth-child(6) > div:last-child > div:nth-child(2){
+    background-image: url(https://www.sejongpac.or.kr/cmmn/file/imageSrc.do?fileStreCours=0b6e54db1621084bb1b0d753ce75fcd2bb6d9ec4bb1f6894357ee3bde7a73807&streFileNm=b675cfc273130c8f4fd00501c66cad026a7ff77472074eb1dad6fba65becd736);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main >div:nth-child(6) > div:last-child > div:last-child{
+    background-image: url(https://www.sejongpac.or.kr/cmmn/file/imageSrc.do?fileStreCours=2b128253b55e283788516ff26464fb7cbb6d9ec4bb1f6894357ee3bde7a73807&streFileNm=247914bc50fbf07b3df8596057dd712c6db30ab9edb0bb8e4f449a9903cb06fb);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main >div:nth-child(6) > div:last-child > div:last-child{
+    display: none;
+}
+
+
+
+/*--------  main div6 --------*/
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+footer > div:first-child > ul{
+    display: flex;
+    gap: 16px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px 0;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+footer > div:first-child > ul > li{
+    font-size: 13px;
+}
+
+footer > div:last-child{
+    height: 30px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+
+/*--------  footer 1 --------*/
+
+
+
+/*--------  footer 2 --------*/
+
+
+
+
+
+/*-------------------------  media  --------------------------------*/
+@media(min-width:425px){
+    main > div:nth-child(2){
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 85px; }
+        
+        main > div:nth-child(2) > div:nth-child(4){
+            display:block;
+        }
+    }
+    
+/*----------------------  425px  ----------------------------------*/
+
+
+
+@media(min-width:768px){
+    main > div:nth-child(2){
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 85px;}
+
+    main > div:nth-child(2) > div:nth-child(4){
+        display:block;
+    }
+    main > div:nth-child(2) > div:nth-child(5){
+        display:block;
+    }
+    main > div:nth-child(2) > div:nth-child(6){
+        display:block;
+    }
+
+    main > div:nth-child(3) > div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 400px;
+        max-width: 1440px;
+    }
+    main > div:nth-child(3) > div > div:nth-child(3){
+        display: block;
+    }
+    main > div:nth-child(3) > div > div:nth-child(4){
+        display: block;
+    }
+
+    main > div:nth-child(4){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        margin: 0 auto;
+    }
+
+
+
+    main > div:nth-child(6) > div:last-child{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 188px;
+        gap: 16px;
+        padding: 0 8px;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    main >div:nth-child(6) > div:last-child > div:last-child{
+        display: block;
+    }
+}
+
+/*--------------------------------768px-----------------------------------*/
+
+@media(min-width:1024px){
+    main > div:nth-child(2){
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 85px;}
+        
+        main > div:nth-child(2) > div:nth-child(4){
+            display:block;
+        }
+        main > div:nth-child(2) > div:nth-child(5){
+            display:block;
+        }
+        main > div:nth-child(2) > div:nth-child(6){
+            display:block;
+        }
+        main > div:nth-child(2) > div:nth-child(7){
+            display:block;
+        }
+        main > div:nth-child(2) > div:nth-child(8){
+            display:block;
+        }
+        
+        main > div:nth-child(3) > div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        }
+    main > div:nth-child(3) > div > div:nth-child(5){
+        display: block;
+    }
+
+    main > div:nth-child(4){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        margin: 0 auto;
+    }
+
+    main > div:nth-child(4) > div:nth-child(1){
+        height: 325px;
+    }
+    main > div:nth-child(4) > div:nth-child(2){
+        height: 325px;
+    }
+}
+
+/*------------------------------1024px---------------------------------*/
+
+@media(min-width:1440px){
+    main > div:nth-child(6) > div:last-child > div:last-child{
+        display: none;
+    }
+
+    main > div:nth-child(6) > div:last-child{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 188px;
+        gap: 16px;
+        padding: 0 8px;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    
+}
+
+
+
+/*------------------------------1440px---------------------------------*/
